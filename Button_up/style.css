@@ -1,0 +1,33 @@
+#searchBTN {
+    border-radius: 12px;
+    border: 1px solid mediumseagreen;
+    width: 100px;
+    padding:3px;
+    background-color: white;
+    color: mediumseagreen;
+    display: block;
+    margin: 15px;
+} 
+
+#plusBTN{
+    border-radius: 50%;
+    border: none;
+    height: 30px;
+    width: 30px;
+    background-color: mediumseagreen;
+    color: white;
+    font-size: large;
+    display: block;
+    margin: 15px;
+}
+
+#createAccountBTN{
+    height: 30px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    color: white;
+    display: block;
+    margin: 15px;
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,1);
+}

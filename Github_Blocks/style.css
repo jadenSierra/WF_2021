@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding:0;
+    background-color: #f1f1f1;
 }
 
 .header{
@@ -19,7 +20,6 @@
 }
 
 .topContainer, .middleContainer, .bottomContainer{
-    border: 1px solid black;
     width: 100%;
     height: 25%;
     display: flex;
@@ -37,15 +37,12 @@
 }
 
 .bottomContainer{
+    background-color: white;
     justify-content: space-between;
 }
 
 .nuxtocat, .poptocat, .megacat, .homercat, .Fintechtocat, .dinotocat, .boxertocat_octodex, .bewitchedtocat{
     height: 120px;
-}
-
-.poptocat{
-    border: 1px solid black;
 }
 
 p {

@@ -4,6 +4,16 @@
     background-color: #f1f1f1;
 }
 
+p {
+    margin: auto;
+    padding-top: 1rem;
+    color: gray;
+}
+
+a{
+    color: skyblue;
+}
+
 .header{
     text-align: center;
     font-size: x-large;
@@ -43,13 +53,4 @@
 
 .nuxtocat, .poptocat, .megacat, .homercat, .Fintechtocat, .dinotocat, .boxertocat_octodex, .bewitchedtocat{
     height: 120px;
-}
-
-p {
-    margin: auto;
-    padding-top: 1rem;
-}
-
-a{
-    color: skyblue;
 }

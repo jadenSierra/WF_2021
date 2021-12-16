@@ -1,0 +1,28 @@
+.row{
+    display: flex;
+}
+
+.col{
+    
+    background-color: skyblue;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex:1;
+}
+
+.col-2{
+    background-color: skyblue;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex:2;
+}
+
+.col-3{
+    background-color: skyblue;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex:3;
+}

@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+p, a, h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    display: inline-block;
+}
+
+h3{
+    font-size: 25px;
+}
+
+#cardContainer{
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+    width: 500px;
+    height:250px
+}
+
+#upperStrip{
+    background-color: skyblue;
+    border: 2px solid skyblue;
+    width: 100%;
+    height: 30%;
+}
+
+#bodyContainer{
+    border: 2px solid lightgrey;
+    border-top: none;
+    width: 100%;
+    height: 70%;
+}
+
+#userIcon{
+    width: 80px;
+    position: absolute;
+    margin-left: 20px;
+    top: 40px;
+}
+
+#contentContainer{
+    padding-top: 40px;
+    margin-left: 20px;
+}
+
+#seattleContainer{
+    margin-top: 5px;
+}
+
+#locationPin{
+    width:10px;
+    margin-right: 10px;
+}
+
+#skillsContainer{
+    margin-top: 5px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#linkContainer{
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+
+#gearIcon{
+    width:15px;
+    margin-right: 5px;
+}
+
+#editProfile{
+    color: #2b78e4;
+}

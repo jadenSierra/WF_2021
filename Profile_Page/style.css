@@ -1,0 +1,328 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+p, a, h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    display: inline-block;
+}
+
+h3{
+    font-size: 25px;
+}
+
+
+#outermostContainer{
+    border: 1px solid black;
+    background-color: white;
+    display: relative;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+    width:1080px;
+    height:576px;
+}
+
+#navContainer{
+    background-color: black;
+    color: white;
+    padding: 0 175px 0 175px;
+    width: 100%;
+    height:10%;
+    display: flex;
+}
+
+.navContent{
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLinks{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.btnContainer{
+    width:30%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#signOutBTN{
+    color:white;
+    font-size: 16px;
+    background-color: skyblue;
+    border: none;
+    width: 70px;
+    height: 30px;
+}
+
+#profileText{
+    font-size: 30px;
+}
+
+#contentContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 100%;
+    width: 75%;
+}
+
+.contentPage{
+    margin-top: 5%;
+}
+
+#bioContainer{
+    width:50%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+#userCard{
+    height:300px;
+    margin-bottom: 30px;
+}
+
+#upperStrip{
+    background-color: skyblue;
+    border:2px solid skyblue;
+    width: 100%;
+    height: 30%;
+}
+
+#bodyContainer{
+    border: 2px solid lightgrey;
+    border-top: none;
+    width: 100%;
+    height: 70%;
+}
+
+#jane{
+    border-radius: 50%;
+    width: 100px;
+    position: relative;
+    left: 5%;
+    bottom: 50px;
+}
+
+#infoContainer{
+    padding-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 60px;
+}
+
+#seattleContainer{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#locationPin{
+    width:10px;
+    margin-right: 10px;
+}
+
+
+#skillsContainer{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gearIcon{
+    width:15px;
+    margin-right: 5px;
+}
+
+#editProfile{
+    color: #2b78e4;
+}
+
+#sideContainer{
+    width:35%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+#educationContainer{
+    border: 2px solid lightgrey;
+    border-top: none;
+    width: 100%;
+    height: 70%;
+}
+
+.blockHeader{
+    background-color: rgb(70, 70, 70);
+    border: 2px solid rgb(70,70,70);
+    color:white;
+}
+
+#educationBlock{
+    padding:5px;
+}
+
+#educationHeader{
+    margin-left: 10px;
+}
+
+#educationContent{
+    margin:10px 25px 5px 25px;
+}
+
+#codingDojo{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#dojoDate{
+    color:grey;
+    margin-bottom: 15px;
+}
+
+#friendsContainer{
+    border:2px solid lightgrey;
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+}
+
+#requestHeader{
+    padding:15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#notificationCircle{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: lightgrey;
+}
+
+#requestHeader > p {
+    margin-left: 10px;
+}
+
+.requests{
+    width: 100%;
+    height:100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border:1px solid rebeccapurple;
+}
+
+#todd, #phil {
+    width: 40%;
+    height: 25%;
+    margin-top:5px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#phil{
+    margin-bottom: 75px;
+}
+
+#todd > img,
+#phil > img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.acceptDeny{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:5px;
+    margin-left: 20px;
+    width: 30%;
+    height: 25%;
+}
+
+.accept,.close{
+    width: 30px;
+    height: 30px;    
+}
+
+#connectionsContainer{
+    border:2px solid lightgrey;
+    margin-top: 20px;
+    width: 100%;
+    height: 45%;
+    font-size: 20px;
+}
+
+#connectionsHeader{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid rgb(70, 70, 70);
+    border-top: none;
+}
+
+#notificationOval{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    background-color: lightgrey;
+}
+
+.connections{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 160px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.connectionInfo {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.connectionInfo > img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.connectionInfo > p{
+    margin-left: 20px;
+}
+
+
+#connectionsContainer > a {
+    padding-left: 10px;
+    position: relative;
+    top: 8px;
+    color: #87ceeb;
+    font-size: 16px;
+}

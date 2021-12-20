@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="pageContainer">
+        <div id="navBar">
+            <div id="navContent">
+                <h2>Dojonary</h2>
+                <input type="text" placeholder="Search">
+                <button onclick="login(this)">
+                    Login
+                </button>        
+            </div>
+        </div>
+        <div id="content">
+            <div id="definitionColumm">
+                <div class="definitionCard">
+                    <div class="wordName">
+                        <h2>ninja</h2>
+                        <p><em>noun</em></p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="likeBtn()">13 likes</button>
+                    </div>
+                    <div class="wordDefinition">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="definitionCard">
+                    <div class="wordName">
+                        <h2>ninja</h2>
+                        <p><em>noun</em></p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="likeBtn()">37 likes</button>
+                    </div>
+                    <div class="wordDefinition" id="devNinjaDefinition">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus </p>
+                    </div>
+                </div>
+            </div>
+            <div id="addDefinitionColumn">
+                <div id="addDefinition">
+                    <p>Dojonary is defined by <strong>YOU</strong></p>
+                    <button onclick="removeDefinitionBTN(this)">Add Definition</button>
+                </div>
+            </div>    
+        </div>   
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

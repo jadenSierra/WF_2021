@@ -8,8 +8,6 @@ let currentRequestsAmount = 2;
 let currentConnectionsAmount = 500;
 let newConnectionsAmount = document.querySelector("#connections")
 
-let createInput = document.createElement("input")
-
 
 let userName = document.querySelector("#userName")
 
@@ -28,6 +26,5 @@ function accept(index) {
 }
 
 function changeName() {
-
     userName.innerText = "Mary Jane";
 }
